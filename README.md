@@ -20,3 +20,5 @@ This repository contains the required notebooks and models for the tasks for app
     A complete notebook that implements the Barlow Twins method, also using a ResNet-15 backbone for pretraining. After pretraining, the encoder is fine-tuned for the downstream tasks.
   - **Comparison with Scratch Models:**  
     For both the SimCLR and Barlow Twins pipelines, there is a comparison with model trained from scratch (a custom VGG-11 built from scratch) on the labelled dataset for both classification and regression.
+
+PS: The models were developed in a kaggle environment. (16gb RAM + T4 GPU)
