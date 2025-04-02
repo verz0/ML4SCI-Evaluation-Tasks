@@ -1,7 +1,5 @@
 # Common task
 
-This document summarizes the implementation and results for the ML4Sci common prerequisite task focused on classifying particle shower images as originating from either electrons or photons using a Convolutional Neural Network (CNN).
-
 ## 1. Objective
 
 The goal of this task was to train a ResNet-15 model to perform binary classification on 2-channel image representations of particle showers detected in the electromagnetic (ECAL) and hadronic (HCAL) calorimeters, distinguishing between electron and photon signatures.
